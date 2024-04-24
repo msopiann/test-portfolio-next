@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Header from "@/components/Header";
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
         <Header />
 
         <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
-          <h1>Halo juga</h1>
+          <About />
         </main>
       </div>
     </div>
