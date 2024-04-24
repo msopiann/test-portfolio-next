@@ -18,7 +18,6 @@ export const metadata: Metadata = {
     title: "Muhammad Sopian's Portfolio",
     description:
       "Explore my web development portfolio and see my skills in action.",
-    images: "../../public/ogImage.png",
   },
 };
 
@@ -29,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen bg-background font-sans antialiased">
+      <body className="min-h-screen bg-[#1e1e1e] font-sans antialiased">
         {children}
       </body>
     </html>
