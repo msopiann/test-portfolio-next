@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Education from "@/components/Education";
 import Header from "@/components/Header";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
 
         <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
           <About />
+          <Education />
         </main>
       </div>
     </div>
