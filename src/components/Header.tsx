@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Navbar from "./Navbar";
-import { ArrowUpRight, Github } from "lucide-react";
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState("about");
@@ -65,7 +64,21 @@ export default function Header() {
           <Link href="/">
             See my resume{" "}
             <span className="inline-flex">
-              <ArrowUpRight size={20} color="white" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-arrow-up-right"
+              >
+                <path d="M7 7h10v10" />
+                <path d="M7 17 17 7" />
+              </svg>
             </span>
           </Link>
         </div>

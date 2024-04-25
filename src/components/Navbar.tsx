@@ -18,9 +18,9 @@ export default function Navbar({ links, activeSection }: Links) {
                   activeSection === link ? "active" : ""
                 }`}
               >
-                <span className="nav-indicator mr-4 h-px w-8 bg-white transition-all group-hover:w-16 group-hover:bg-current group-focus-visible:w-16 group-focus-visible:bg-current motion-reduce:transition-none"></span>
+                <span className="nav-indicator mr-4 h-px w-8 bg-white transition-all group-hover:w-16 group-hover:bg-white group-focus-visible:w-16 group-focus-visible:bg-current motion-reduce:transition-none"></span>
 
-                <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-current group-focus-visible:text-current">
+                <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-white group-focus-visible:text-current">
                   {link}
                 </span>
               </a>

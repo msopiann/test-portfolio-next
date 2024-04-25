@@ -23,3 +23,28 @@ export const EducationHistory = [
       "During my three years at school, I was active in extracurricular activities and seized opportunities to develop my social skills. Academically, I managed to stay in the top 20% out of 350 students throughout my time in high school and even qualified for university through an invitation-based track (SNMPTN).",
   },
 ];
+
+import Netflix from "public/img/netflixProject.webp";
+import OnlineStore from "public/img/onlineStoreProject.webp";
+
+export const ProjectPortfolio = [
+  {
+    projectId: "Project01",
+    projectName: "Netflix - UI",
+    projectDescription:
+      "This Netflix clone project focusing on its user interface. It uses Next.js for the frontend and Tailwind for styling to make the site look good and work well on all devices. Even though it doesn't have its own backend, it pulls in content using the TMDB API. With this, users can see movies, shows, and more in a design like Netflix.",
+    projectUrl: "https://netflix-clone-with-next.vercel.app/",
+    projectImage: Netflix,
+    techStack: ["Next.js", "Tailwind"],
+  },
+
+  {
+    projectId: "Project02",
+    projectName: "Online Store - UI",
+    projectDescription:
+      "This online store project is entirely focused on frontend development. Utilizing React as the main framework and Tailwind for styling, the website is designed to deliver an optimal user experience across various devices. Even without a dedicated backend, the site efficiently showcases product catalogs, demonstrating smooth navigation and an appealing design for visitors.",
+    projectUrl: "https://react-online-store-alpha.vercel.app/",
+    projectImage: OnlineStore,
+    techStack: ["React", "Tailwind"],
+  },
+];
