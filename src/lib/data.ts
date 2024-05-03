@@ -27,20 +27,30 @@ export const EducationHistory = [
 import Netflix from "public/img/netflixProject.webp";
 import OnlineStore from "public/img/onlineStoreProject.webp";
 import Sahate from "public/img/sahateProject.webp";
+import SuperConnect from "public/img/superconnectProject.webp";
 
 export const ProjectPortfolio = [
   {
     projectId: "Project01",
+    projectName: "Super Connect",
+    projectDescription:
+      "This Super Connect project is a chatbot created for a final assignment in a Software Engineering course during college. This chatbot was created using the API from Google Gemini. In this chatbot, users can interact with the chatbot like using chatbots in general: for example ChatGPT or Google Gemini (formerly Bard).",
+    projectUrl: "https://superconnect.vercel.app/",
+    projectImage: SuperConnect,
+    techStack: ["Next.js", "TypeScript", "Gemini API", "Tailwind"],
+  },
+  {
+    projectId: "Project02",
     projectName: "Netflix - UI",
     projectDescription:
       "This Netflix clone project focusing on its user interface. It uses Next.js for the frontend and Tailwind for styling to make the site look good and work well on all devices. Even though it doesn't have its own backend, it pulls in content using the TMDB API. With this, users can see movies, shows, and more in a design like Netflix.",
     projectUrl: "https://netflix-clone-with-next.vercel.app/",
     projectImage: Netflix,
-    techStack: ["Next.js", "Tailwind"],
+    techStack: ["Next.js", "TMDB API", "Tailwind"],
   },
 
   {
-    projectId: "Project02",
+    projectId: "Project03",
     projectName: "Online Store - UI",
     projectDescription:
       "This online store project is entirely focused on frontend development. Utilizing React as the main framework and Tailwind for styling, the website is designed to deliver an optimal user experience across various devices. Even without a dedicated backend, the site efficiently showcases product catalogs, demonstrating smooth navigation and an appealing design for visitors.",
@@ -49,7 +59,7 @@ export const ProjectPortfolio = [
     techStack: ["React", "Tailwind"],
   },
   {
-    projectId: "Project03",
+    projectId: "Project04",
     projectName: "Sahate",
     projectDescription:
       "This project is a web that uses HTML, CSS, and JavaScript to introduce the residents of 'Sahate'. By utilizing the GSAP library for animation, this project provides an engaging interactive experience with smooth and dynamic animation elements.",
