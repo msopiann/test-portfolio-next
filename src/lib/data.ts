@@ -26,6 +26,7 @@ export const EducationHistory = [
 
 import Netflix from "public/img/netflixProject.webp";
 import OnlineStore from "public/img/onlineStoreProject.webp";
+import Sahate from "public/img/sahateProject.webp";
 
 export const ProjectPortfolio = [
   {
@@ -46,5 +47,14 @@ export const ProjectPortfolio = [
     projectUrl: "https://react-online-store-alpha.vercel.app/",
     projectImage: OnlineStore,
     techStack: ["React", "Tailwind"],
+  },
+  {
+    projectId: "Project03",
+    projectName: "Sahate",
+    projectDescription:
+      "This project is a web that uses HTML, CSS, and JavaScript to introduce the residents of 'Sahate'. By utilizing the GSAP library for animation, this project provides an engaging interactive experience with smooth and dynamic animation elements.",
+    projectUrl: "https://sahate.vercel.app",
+    projectImage: Sahate,
+    techStack: ["HTML", "JavaScript", "GSAP"],
   },
 ];
